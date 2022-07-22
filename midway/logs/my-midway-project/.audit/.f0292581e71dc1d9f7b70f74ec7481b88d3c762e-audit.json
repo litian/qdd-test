@@ -1,0 +1,20 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/lijianchun/work/qdd-work/logs/my-midway-project/.audit/.f0292581e71dc1d9f7b70f74ec7481b88d3c762e-audit.json",
+  "files": [
+    {
+      "date": 1658390492931,
+      "name": "/Users/lijianchun/work/qdd-work/logs/my-midway-project/midway-app.log.2022-07-21",
+      "hash": "6994a99cd1b94356d177bf6fcb2dbab7"
+    },
+    {
+      "date": 1658468928592,
+      "name": "/Users/lijianchun/work/qdd-work/logs/my-midway-project/midway-app.log.2022-07-22",
+      "hash": "421bf047e1dc4beee9a889fa2d0b1953"
+    }
+  ],
+  "hashType": "md5"
+}

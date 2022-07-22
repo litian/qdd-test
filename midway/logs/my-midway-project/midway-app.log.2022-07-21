@@ -1,0 +1,244 @@
+2022-07-21 17:25:18,993 WARN 11041 [-/::ffff:127.0.0.1/-/20ms GET /user/login] NotFoundError: /user/login Not Found
+    at notFound (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at async bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:257:40
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:253:24
+    at async midwayRootMiddleware (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:71:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2022-07-21 17:28:02,412 ERROR 11388 [-/::ffff:127.0.0.1/-/21ms GET /user/login] MidwayDefinitionNotFoundError: userModel in class UserController is not valid in current context
+    at MidwayContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/container.js:443:19)
+    at MidwayRequestContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/requestContainer.js:67:32)
+    at RefResolver.resolveAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:232:44)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:31:36
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-21 17:30:34,376 ERROR 11406 [-/::ffff:127.0.0.1/-/22ms GET /user/login] MidwayDefinitionNotFoundError: userModel in class UserController is not valid in current context
+    at MidwayContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/container.js:443:19)
+    at MidwayRequestContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/requestContainer.js:67:32)
+    at RefResolver.resolveAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:232:44)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:31:36
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-21 17:35:05,471 ERROR 11810 [-/::ffff:127.0.0.1/-/17ms GET /user/login] MidwayDefinitionNotFoundError: userModel in class UserController is not valid in current context
+    at MidwayContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/container.js:443:19)
+    at MidwayRequestContainer.getAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/requestContainer.js:67:32)
+    at RefResolver.resolveAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/context/managedResolverFactory.js:232:44)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:31:36
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-21 17:40:01,198 ERROR 12133 [-/::ffff:127.0.0.1/-/25ms GET /user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.findOne (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:18:38)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:29:39)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 17:47:24,170 ERROR 12492 [-/::ffff:127.0.0.1/-/38ms GET /user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.findOne (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:18:38)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:29:39)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 17:50:04,549 ERROR 12519 [-/::ffff:127.0.0.1/-/23ms GET /user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.findOne (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:18:38)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:29:39)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 17:50:35,771 ERROR 12622 [-/::ffff:127.0.0.1/-/22ms GET /user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.findOne (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:19:38)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:29:39)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 17:55:35,723 ERROR 13051 [-/::ffff:127.0.0.1/-/24ms GET /user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.findOne (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:19:38)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:29:39)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 18:02:28,164 ERROR 13386 [-/::ffff:127.0.0.1/-/28ms GET /user/add?username=jack&password=redballoon] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.save (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:205:18)
+    at UserModel.set (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:32:37)
+    at UserController.add (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:53:38)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 18:29:25,816 ERROR 14554 [-/::ffff:127.0.0.1/-/23ms GET /user/add?username=jack&password=redballoon] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (/Users/lijianchun/work/qdd-work/node_modules/src/data-source/DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:52:40)
+    at Repository.save (/Users/lijianchun/work/qdd-work/node_modules/src/repository/Repository.ts:205:18)
+    at UserModel.set (/Users/lijianchun/work/qdd-work/src/model/user.model.ts:32:37)
+    at UserController.add (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:53:38)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+2022-07-21 18:47:08,053 ERROR 16047 [-/::ffff:127.0.0.1/-/26ms GET /api/user/login?username=jack&password=redballoon] Error: invalid expiresIn option for string payload
+    at Object.module.exports [as sign] (/Users/lijianchun/work/qdd-work/node_modules/jsonwebtoken/sign.js:128:22)
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/jwt/dist/jwt.js:45:17
+    at new Promise (<anonymous>)
+    at JwtService.sign (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/jwt/dist/jwt.js:44:16)
+    at UserController.login (/Users/lijianchun/work/qdd-work/src/controller/user.controller.ts:35:43)
+    at async UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:34)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+2022-07-21 18:57:07,349 WARN 16908 [-/::ffff:127.0.0.1/-/36ms GET /api/user/login?username=jack] MidwayValidationError: "password" is required
+    at ValidateService.validate (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/service.js:43:23)
+    at Object.before (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/configuration.js:40:61)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:84:95)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at async bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5) {
+  code: 'VALIDATE_10000',
+  cause: [Error [ValidationError]: "password" is required] {
+    _original: UserLoginDTO { username: 'jack' },
+    details: [ [Object] ]
+  },
+  status: 422
+}
+2022-07-21 19:01:19,277 WARN 17028 [-/::ffff:127.0.0.1/-/40ms GET /api/user/login?username=jack] MidwayValidationError: "password" is required
+    at ValidateService.validate (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/service.js:43:23)
+    at Object.before (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/configuration.js:40:61)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:84:95)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at async bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5) {
+  code: 'VALIDATE_10000',
+  cause: [Error [ValidationError]: "password" is required] {
+    _original: UserLoginDTO { username: 'jack' },
+    details: [ [Object] ]
+  },
+  status: 422
+}
+2022-07-21 19:01:21,524 WARN 17028 [-/::ffff:127.0.0.1/-/20ms GET /api/user/login?username=jack] MidwayValidationError: "password" is required
+    at ValidateService.validate (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/service.js:43:23)
+    at Object.before (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/validate/dist/configuration.js:40:61)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:84:95)
+    at UserController.Clz.<computed> (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/service/aspectService.js:89:53)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/common/webGenerator.js:33:26
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at async bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5) {
+  code: 'VALIDATE_10000',
+  cause: [Error [ValidationError]: "password" is required] {
+    _original: UserLoginDTO { username: 'jack' },
+    details: [ [Object] ]
+  },
+  status: 422
+}
+2022-07-21 19:15:38,782 WARN 18754 [-/::ffff:127.0.0.1/-/3ms GET /api/user/login?username=jack&password=redballoon1] NotFoundError: /api/user/login Not Found
+    at notFound (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5)
+    at session (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:257:40
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:253:24
+    at midwayRootMiddleware (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:71:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2022-07-21 19:17:20,083 WARN 18876 [-/::ffff:127.0.0.1/-/5ms GET /api/user/login?username=jack&password=redballoon1] NotFoundError: /api/user/login Not Found
+    at notFound (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5)
+    at session (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:257:40
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:253:24
+    at midwayRootMiddleware (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:71:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2022-07-21 19:21:33,230 WARN 19109 [-/::ffff:127.0.0.1/-/5ms GET /api/user/login?username=jack&password=redballoon1] NotFoundError: /api/user/login Not Found
+    at notFound (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5)
+    at session (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:257:40
+    at /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:253:24
+    at midwayRootMiddleware (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:71:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}

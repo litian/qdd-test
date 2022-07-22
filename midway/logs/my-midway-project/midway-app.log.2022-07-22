@@ -1,0 +1,15 @@
+2022-07-22 14:50:21,485 WARN 25763 [-/::ffff:127.0.0.1/-/21ms GET /app.4422ccab47d4fa17.hot-update.json] NotFoundError: /app.4422ccab47d4fa17.hot-update.json Not Found
+    at notFound (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/lijianchun/work/qdd-work/src/middleware/report.middleware.ts:13:22
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/i18n/dist/middleware.js:138:17
+    at async bodyParser (/Users/lijianchun/work/qdd-work/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:257:40
+    at async /Users/lijianchun/work/qdd-work/node_modules/@midwayjs/core/dist/baseFramework.js:253:24
+    at async midwayRootMiddleware (/Users/lijianchun/work/qdd-work/node_modules/@midwayjs/koa/dist/framework.js:71:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
